@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+pandas
+plotly
+folium
+streamlit-folium
+gTTS
+Pillow
