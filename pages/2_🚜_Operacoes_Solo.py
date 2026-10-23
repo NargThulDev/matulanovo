@@ -226,7 +226,7 @@ if salvou:
             with st.spinner("Analisando dados operativos, fotos e áudio..."):
                 try:
                     genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('models/gemini-3.5-flash')
+                    model = genai.GenerativeModel('models/gemini-2.5-flash')
                     
                     if tipo_selecionado == "Aplicação / Pulverização":
                         instrucao = "Avalie a termodinâmica (Delta T) do clima, o risco de deriva e a sinergia entre o bico escolhido e o produto. Sugira adição de adjuvantes apenas se o cenário climático ou o ativo realmente exigir."
