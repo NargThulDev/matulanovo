@@ -293,7 +293,7 @@ if salvou:
             with st.spinner("Analisando o quadro biológico, fotos e áudio..."):
                 try:
                     genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('models/gemini-3.5-flash')
+                    model = genai.GenerativeModel('models/gemini-2.5-flash')
                     
                     prompt = f"""
                     Aja como Felipe, agrônomo de campo experiente, direto e técnico.
