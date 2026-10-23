@@ -158,7 +158,7 @@ if prompt_texto or enviou_audio:
                 """
                 
                 model = genai.GenerativeModel(
-                    'models/gemini-2.5-flash',
+                    'models/gemini-3.6-flash',
                     system_instruction=instrucao_gestor
                 )
                 
